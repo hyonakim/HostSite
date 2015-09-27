@@ -9,9 +9,16 @@ ul {
   margin: 0;
 }
 
+h3 {
+  font-size: 19px;
+  font-weight: 400;
+}
+
 a {
   text-decoration: none;
 }
+
+/*Navigation Area*/
 
 nav ul {
   margin: 16px 0 0 5px;
@@ -30,6 +37,8 @@ nav li a span {
   color: #000;
 }
 
+/*Background Image Area*/
+
 .backgroundImage {
   width: 100%;
   height: 400px;
@@ -41,7 +50,7 @@ nav li a span {
 .backgroundText {
   position: absolute;
   top: 168px;
-  left: 448px;
+  left: 453px;
 }
 
 .simplePricing {
@@ -57,6 +66,8 @@ nav li a span {
   text-align: center; 
   text-shadow: 1px 1px 1px #000; 
 }
+
+/*Price Plans*/
 
 .list {
   margin: 46px 0 0 156px;
@@ -132,30 +143,66 @@ li.choose button {
   background: #101010;
 }
 
-.infoColumn {
-  margin: 45px 0 0 20px;
+.infoColumns {
+  position: relative; 
+  margin-left: 20px;
+  color: #707B80;
 }
 
-.firstRow {
-  float: left;
-  width: 445px;
-  margin-left: 200px;
+/*Information Columns*/
+
+.infoColumns h3 {
+  color: #060606;
+  letter-spacing: 2px;
 }
 
-.secondRow {
-  float: left;
-  width: 425px;
-  margin-left: 59px;
+.infoColumns p {
+  line-height: 160%;
+  font-size: 14px;
 }
+
+.column1 {
+  position: absolute;
+  top: 53px;
+  left: 173px;
+  width: 427px;
+}
+
+.column2top {
+  position: absolute;
+  top: 292px;
+  left: 173px;
+  width: 427px;
+}
+
+.column2 {
+  position: absolute;
+  top: 53px;
+  right: 171px;
+  width: 427px;
+}
+
+.column2bottom {
+  position: absolute;
+  width: 427px;
+  right: 171px;
+  top: 292px;
+}
+
+/*Footer Area*/
 
 .Unsplash {
-  margin-top: 400px;
+  margin-top: 511px;
   text-align: center;
   background: #000;
   color: #7D7D7D;
+  padding: 26px;
 }
 
-
+.Unsplash a {
+  color: #fff;
+  text-decoration: underline;
+}
 
 
 
