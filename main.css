@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 16px 0 0 5px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav li a {
+  color: #646B70;
+}
+
+nav li a span {
+  color: #000;
+}
+
+.backgroundImage {
+  width: 100%;
+  height: 400px;
+  background: url('images/background.jpg');
+  margin-top: 10px;
+  position: relative;
+}
+
+.backgroundText {
+  position: absolute;
+  top: 168px;
+  left: 436px;
+}
+
+.simplePricing {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.try {
+  color: #fff;
+  font-size: 47px;
+  text-align: center; 
+  text-shadow: 1px 1px 1px #000; 
+}
+
+.list {
+  margin: 46px 0 0 156px;
+}
+
+.priceList {
+  display: inline-block;
+  width: 302px;
+  margin-left: 16px;
+}
+
+.priceList li {
+  border: 1px solid #D7DAD7;
+  text-align: center;
+  padding: 13px;
+}
+
+.price {
+  border: 1px solid #D7DAD7;
+  height: 197px;
+}
+
+.price p {
+  text-align: center;
+  color: #fff;
+}
+
+.price span {
+  font-size: 100px;
+}
+
+.firstcolumn {
+  background: #519250;
+}
+
+.secondcolumn {
+  background: #2A4787;
+}
+
+.thirdcolumn {
+  background: #101010;
+}
+
+
+
+
+
