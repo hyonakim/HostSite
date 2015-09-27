@@ -76,16 +76,33 @@ nav li a span {
 
 .price {
   border: 1px solid #D7DAD7;
-  height: 197px;
+  height: 220px;
 }
 
-.price p {
+.hosttype {
   text-align: center;
   color: #fff;
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+.dollar {
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
 }
 
 .price span {
   font-size: 100px;
+}
+
+.perMonth {
+  color: #fff;
+  opacity: 0.5;
+  margin-left: 96px;
+  position: absolute;
+  top: 657px;
+  font-size: 18px;
 }
 
 .firstcolumn {
