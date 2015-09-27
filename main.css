@@ -41,7 +41,7 @@ nav li a span {
 .backgroundText {
   position: absolute;
   top: 168px;
-  left: 436px;
+  left: 448px;
 }
 
 .simplePricing {
@@ -72,6 +72,7 @@ nav li a span {
   border: 1px solid #D7DAD7;
   text-align: center;
   padding: 13px;
+  background: #F6F6F6;
 }
 
 .price {
@@ -105,6 +106,20 @@ nav li a span {
   font-size: 18px;
 }
 
+li.choose {
+  background: #fff;
+  padding: 26px;
+}
+
+li.choose button {
+  background: #fff;
+  border: 1px solid #D8D8D8;
+  border-radius: 20px;
+  padding: 8px;
+  width: 88px;
+  font-weight: bold;
+}
+
 .firstcolumn {
   background: #519250;
 }
@@ -116,6 +131,37 @@ nav li a span {
 .thirdcolumn {
   background: #101010;
 }
+
+.infoColumn {
+  margin: 45px 0 0 20px;
+}
+
+.firstRow {
+  float: left;
+  width: 445px;
+  margin-left: 200px;
+}
+
+.secondRow {
+  float: left;
+  width: 425px;
+  margin-left: 59px;
+}
+
+.Unsplash {
+  margin-top: 400px;
+  text-align: center;
+  background: #000;
+  color: #7D7D7D;
+}
+
+
+
+
+
+
+
+
 
 
 
